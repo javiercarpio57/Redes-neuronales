@@ -1,0 +1,8 @@
+fashion-mnist_test.csv
+fashion-mnist_train.csv
+Lab2-venv
+.vscode
+.ipynb_checkpoints
+__pycache__
+main.py
+Lab 1.ipynb

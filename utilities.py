@@ -15,3 +15,6 @@ def getPartitions(dataset, trainingNumber, cvNumber):
 
 def ecm(predicciones, reales):
     return np.sum((predicciones - reales)**2) / len(predicciones)
+
+def readFile (filename):
+    return np.loadtxt(filename)

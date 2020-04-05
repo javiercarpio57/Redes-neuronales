@@ -18,3 +18,7 @@ def ecm(predicciones, reales):
 
 def readFile (filename):
     return np.loadtxt(filename)
+
+def listToMatrix(pixels, size):
+    pixelsTuple = [(x, x, x) for x in pixels]
+    return np.asarray(pixelsTuple).reshape(size, size, 3)
